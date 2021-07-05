@@ -44,10 +44,6 @@ for i in arrOfEmp:
     table += "<th> " + i.phone + "</th> \n"
     table += "</tr> \n"
 
-print(table)
-print("===============")
-print(temp)
-
 temp = temp.format(table)
 f2 = open("template2.html" , "w")
 f2.write(temp)
