@@ -47,3 +47,5 @@ for i in arrOfEmp:
 temp = temp.format(table)
 f2 = open("template2.html" , "w")
 f2.write(temp)
+
+print("thanks")
